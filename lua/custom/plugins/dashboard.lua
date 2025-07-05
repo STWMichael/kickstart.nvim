@@ -57,7 +57,7 @@ return {
     local greeting = function()
       -- Determine the appropriate greeting based on the hour
       local mesg
-      local username = os.getenv 'USERNAME'
+      local username = 'Michael'
       if datetime >= 0 and datetime < 6 then
         mesg = 'Dreaming..󰒲 󰒲 '
       elseif datetime >= 6 and datetime < 12 then
